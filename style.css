@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gabarito', sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black solid 2px;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s1 {
+    align-items: center;
+}
+
+.navabr__s1__title {
+    color: palevioletred;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    border: black solid 2px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    padding: 10px;
+}
+
+.categories p {
+    background-color: palevioletred;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recommended__box {
+    padding: 10px;
+    width: 220px;
+   
+}
+
+.recommended__box img {
+    width: 100%;
+    height: 50%;
+
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.topics__section p {
+    border: black solid 2px;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border-radius: 30px;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular__box {
+    padding: 10px;
+    width: 220px;
+    flex-basis: 20%;
+    flex-grow: 1;
+   
+}
+
+.popular__box img {
+    width: 100%;
+    height: 50%;
+
+}
+
+.footer {
+    background-color: black;
+    color: white
+}
+
+.footer__one {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+
+.footer__one--s1 p, .footer__one--s2 p{
+    padding: 10px;
+} 
+.footer__two {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
